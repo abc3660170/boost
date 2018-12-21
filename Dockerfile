@@ -1,4 +1,4 @@
-FROM chentao/gccmakeup:latest
+FROM abc3660170/gcc:latest
 WORKDIR /usr/local/src
 RUN wget -O boost_1_62_0.tar.gz http://pilotfiber.dl.sourceforge.net/project/boost/boost/1.62.0/boost_1_62_0.tar.gz
 RUN tar -xzvf boost_1_62_0.tar.gz
