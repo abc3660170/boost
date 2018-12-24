@@ -8,3 +8,4 @@ RUN ./b2 threading=multi; exit 0
 RUN ./b2 install; exit 0
 RUN echo "/usr/local/lib" >> /etc/ld.so.conf
 RUN ldconfig
+RUN rm -rf /usr/local/src/boost_1_62_0*
